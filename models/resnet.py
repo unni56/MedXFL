@@ -1,3 +1,8 @@
+import torch
+import torch.nn as nn
+
+from torchvision import models
+
 class TBResNet(nn.Module):
     def __init__(self, num_classes=14):  
         super(TBResNet, self).__init__()
