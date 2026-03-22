@@ -1,0 +1,33 @@
+# ======================
+# DATASETS (VERY IMPORTANT)
+# ======================
+pretraining_data/images/
+pretraining_data/Data_Entry_2017.csv
+
+
+
+# ======================
+# MODEL FILES
+# ======================
+saved_models/
+*.pth
+
+# ======================
+# PYTHON CACHE
+# ======================
+__pycache__/
+*.pyc
+
+# ======================
+# ENVIRONMENT FILES
+# ======================
+.env
+venv/
+env/
+
+# ======================
+# SYSTEM FILES
+# ======================
+.DS_Store
+Thumbs.db
+
